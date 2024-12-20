@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/CVDisplay.css";
-import Icon from '@mdi/react';
+import { Icon } from '@mdi/react';
 import { mdilEmail } from '@mdi/light-js';
 import { mdiPhone, mdiMapMarker } from '@mdi/js';
 
