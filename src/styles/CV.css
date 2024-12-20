@@ -1,0 +1,127 @@
+.cv-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 30px;
+    width: 35%;
+    background-color: rgb(241, 240, 240);
+}
+
+.resume-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    background-color: white;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.resume-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+    gap: 3px;
+    border: none;
+    outline: none;
+}
+
+.clear-resume-button {
+    color: rgb(160, 2, 2);
+    font-size: 14px;
+    background-color: white;
+    font-weight: 700;
+    width: 33%;
+}
+
+.load-example-button {
+    width: 33%;
+    color: black;
+    font-size: 14px;
+    background-color: rgb(241, 240, 240);
+    font-weight: 700;
+}
+
+.cv-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    width: 100%;
+    background-color: rgb(241, 240, 240);
+}
+
+.export-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 33%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.export-button {
+    width: 100%;
+    background-color: #187ff5;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.export-button:focus {
+    outline: none;
+}
+
+.export-options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 12.35%;
+    width: 70%;
+    background-color: #187ff5;
+    box-shadow: 0 2px 5px rgba(0,0,0,0,2);
+    border-radius: 6px;
+    border: 6px solid #187ff5;
+    margin-top: 6px;
+    z-index: 1;
+}
+
+.export-options button {
+    width: 100%;
+    text-align: left;
+    padding: 5px 9px;
+    background-color: white;
+    margin: 0;
+    margin-top: 6px;
+    border-radius: 0;
+    border: none;
+    color: #187ff5;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.export-options button:hover {
+    background-color: #f0f0f0;
+}
+
+.export-options button:focus {
+    outline: none;
+}
+
+.export-options.show {
+    display: block;
+}

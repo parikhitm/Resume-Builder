@@ -1,0 +1,143 @@
+.cv-display-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    width: 44%;
+    background-color: white;
+    border-radius: 5px;
+    height: 1123px;
+    min-height: 1123px;
+    box-sizing: border-box;
+    min-width: 794px;
+    max-width: 794px;
+}
+
+.personal-info-display {
+    background-color: #0e374e;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 6% 5%;
+    height: 4.3%;
+    width: 90%;
+    border-radius: 5px 5px 0 0;
+}
+
+.personal-info-display h1 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-info-display {
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+}
+
+.contact-info-display div {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    gap: 5px;
+}
+
+.contact-info-display div span {
+    color: white;
+    font-size: 16px;
+}
+
+.education-and-experience-info-display {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    padding: 0 39px;
+    width: 90%;
+}
+
+.education-info-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.education-info-section h2 {
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+    padding: 3px 0;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.education-details-display {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 18px;
+}
+
+.education-details-display div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+}
+
+.education-details-display div h3 {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.education-details-display div span {
+    font-size: 15px;
+    color: black;
+}
+
+.practical-experience-section {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    margin-top: 40px;
+}
+
+.practical-experience-section h2 {
+    font-size: 23px;
+    color: black;
+    text-align: center;
+    margin: 0;
+    background-color: rgb(231, 231, 231);
+    padding: 3px 0;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.practical-experience-details-display {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 24px;
+}
+
+.practical-experience-details-display div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+}
+
+.practical-experience-details-display div h3 {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+
+.practical-experience-details-display div span {
+    font-size: 15px;
+    color: black;
+}
