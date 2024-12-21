@@ -131,6 +131,10 @@
   color: white;
 }
 
+.save-practical-experience-button:focus {
+  outline: none;
+}
+
 .cancel-practical-experience-button {
   color: rgb(94, 94, 94);
   border: 1px solid rgb(94, 94, 94);

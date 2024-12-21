@@ -111,8 +111,8 @@ function PracticalExperience({ initialData, onPracticalExperienceChange }) {
             <>
             <p>{practicalExperience.companyName}</p>
             <div className="practical-experience-entries-button">
-            <FaEdit style={{ width: "22px", height: "22px", cursor: "pointer" }} type="button" onClick={() => editPracticalExperience(practicalExperience.id)} />
-            <MdOutlineDelete style={{ width: "24px", height: "24px", cursor: "pointer" }} type="button" onClick={() => removePracticalExperience(index)} />
+            <FaEdit style={{ width: "22px", height: "22px", cursor: "pointer", fill: "black" }} type="button" onClick={() => editPracticalExperience(practicalExperience.id)} />
+            <MdOutlineDelete style={{ width: "24px", height: "24px", cursor: "pointer", fill: "black" }} type="button" onClick={() => removePracticalExperience(index)} />
             </div>
             </>
           )}

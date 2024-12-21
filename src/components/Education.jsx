@@ -106,8 +106,8 @@ function Education({ initialData, onEducationChange }) {
                         <>
                             <p>{education.schoolName}</p>
                             <div className="education-entries-buttons">
-                                <FaEdit style={{ width: "22px", height: "22px", cursor: "pointer" }} type="button" onClick={() => editEducation(education.id)} />
-                                <MdOutlineDelete style={{ width: "24px", height: "24px", cursor: "pointer" }} type="button" onClick={() => removeEducation(index)} />
+                                <FaEdit style={{ width: "22px", height: "22px", cursor: "pointer", fill: "black"}} type="button" onClick={() => editEducation(education.id)} />
+                                <MdOutlineDelete style={{ width: "24px", height: "24px", cursor: "pointer", fill: "black"}} type="button" onClick={() => removeEducation(index)} />
                             </div>
                         </>
                     )}

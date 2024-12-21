@@ -131,6 +131,10 @@
   color: white;
 }
 
+.save-education-button:focus {
+  outline: none;
+}
+
 .cancel-education-button {
   color: rgb(94, 94, 94);
   border: 1px solid rgb(94, 94, 94);
