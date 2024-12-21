@@ -15,6 +15,7 @@
     padding: 18px;
     background-color: white;
     border-radius: 12px 12px 0 0;
+    color: black;
   }
 
 .education-entry-edit {
@@ -39,6 +40,7 @@
   padding: 0;
   font-size: 16px;
   font-weight: 650;
+  color: black;
 }
 
 .form-group input {
@@ -49,6 +51,7 @@
   font-size: 13.3px;
   font-weight: 400;
   text-align: start;
+  color: black;
 }
 
 .education-entries {
@@ -67,6 +70,7 @@
   margin: 0;
   font-size: 17px;
   font-weight: 600;
+  color: black;
 }
 
 .education-entries-buttons {
@@ -130,5 +134,6 @@
 .cancel-education-button {
   color: rgb(94, 94, 94);
   border: 1px solid rgb(94, 94, 94);
+  background-color: white;
 }
  

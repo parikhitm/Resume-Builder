@@ -71,7 +71,7 @@ function PracticalExperience({ initialData, onPracticalExperienceChange }) {
 
   return (
     <div className="practical-experience-form">
-      <h2>Experience</h2>
+      <h2>Practical Experience</h2>
       {practicalExperienceList.map((practicalExperience, index) => (
         <div key={practicalExperience.id} className="practical-experience-entry">
           {editingId === practicalExperience.id ? (

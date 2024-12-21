@@ -28,6 +28,7 @@
     padding: 0;
     font-size: 16px;
     font-weight: 650;
+    color: black;
   }
   
   .general-info-form input {
@@ -38,18 +39,6 @@
     font-size: 13.3px;
     font-weight: 400;
     text-align: start;
-  }
-  
-  .general-info-form button {
-    padding: 10px 15px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .general-info-form button:hover {
-    background-color: #0056b3;
+    color: black;
   }
  
