@@ -34,10 +34,12 @@ A dynamic React-based resume builder application with real-time preview and mult
 4. Use the real-time preview to check your resume's appearance
 5. Export your resume in your preferred format using the "Export As" button
 
+## [Live Version](https://resume-builder-2ql.pages.dev/)
+
 ## Quick Start 🚀
 ```
 # Clone repository
-git clone <repository-url>
+git clone git@github.com:parikhitm/Resume-Builder.git
 
 # Navigate to project
 cd resume-builder
